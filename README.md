@@ -1,4 +1,4 @@
-# Promised AngularJS wrapper for SweetAlert
+# Promised AngularJS wrapper for SweetAlert.
 
 AngularJS wrapper for [SweetAlert](http://tristanedwards.me/sweetalert) built with Promises. Sweet Alert is a beautiful replacement for Javascript's "Alert".
 

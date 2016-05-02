@@ -1,7 +1,7 @@
 (function () {
 	'use strict';
 
-	angular.module('jutaz.ngSweetAlertAsPromised', []).factory('SweetAlert',
+	angular.module('erSweetAlertAsPromised', []).factory('SweetAlert',
 	['$window', '$q', function ($window, $q) {
 
 		var swal = $window.swal;
@@ -32,6 +32,10 @@
 			},
 			info: function(options) {
 				options.type = 'info';
+				return self.swal(options);
+			},
+			index: function(options) {
+				options.type = 'index';
 				return self.swal(options);
 			}
 		};
